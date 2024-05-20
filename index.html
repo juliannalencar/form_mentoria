@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentoria</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>MENTORIA</h1>
+      <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+    <form id="my-form">
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>INFORMAÇÕES PESSOAIS</legend>
+
+          <div class="input-wrapper">
+            <label for="user-name">Nome</label>
+            <input type="text" id="user-name" name="user-name" required>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="user-last-name">Sobrenome</label>
+            <input type="text" id="user-last-name" name="user-last-name" required>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="email-user">Email <span>(digite um email válido)</span></label>
+            <input type="email" id="email-user" name="email-user" required>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="password-user">Senha <span>(mínimo de 6 caracteres)</span></label>
+            <input type="password" id="password-user" name="password-user" required minlength="6">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>INFORMAÇÕES DO MENTOR</legend>
+
+          <div class="input-wrapper">
+            <label for="mentor-name">Nome do seu mentor <span>(Só o primeiro nome)</span></label>
+            <input type="text" id="mentor-name" name="mentor-name" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="input-wrapper">
+          <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+        </div>
+      </fieldset>
+
+    </form>
+
+
+  </div>
+  
+</body>
+</html>
